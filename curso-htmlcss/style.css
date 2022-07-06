@@ -1,8 +1,20 @@
-#titulo, .subtitulo, .titulo-post{
+body {
+  background: #ccc;
+
+}
+
+#titulo, .subtitulo, .titulo_post{
   color:blueviolet;
 }
 
-.titulo-post {
+.titulo_post {
   font-size: 16px;
   font-style: italic;
+}
+
+.postagem {
+  background: #fff;
+  padding: 10px;
+  border: 3px solid #000;
+  margin: 10px;
 }
