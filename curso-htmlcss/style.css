@@ -1,6 +1,8 @@
 body {
   background: #f7f7f7;
-
+  font-family: Verdana;
+  margin: auto;
+  max-width: 900px;
 }
 
 .foto_abstrata {
@@ -9,6 +11,16 @@ body {
 }
 #titulo, .subtitulo, .titulo_post{
   color:#505050;
+}
+
+#titulo {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: line-through;
+  color: #505050; /* isso faz os links terem a mesma cor que o conteúdo */
 }
 
 .titulo_post {
@@ -29,9 +41,20 @@ body {
 .conteudo_post {
   margin: 0;
   margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: justify;
 }
 
 .imagem_post {
   margin-bottom: 15px;
+  width: 100%;
+}
 
+.contato{
+  list-style: none; /*remove os marcadores de uma lista*/
+  padding-left: 15px;
+}
+
+.contato li a {
+  text-decoration: none;
 }
