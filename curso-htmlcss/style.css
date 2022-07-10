@@ -1,20 +1,37 @@
 body {
-  background: #ccc;
+  background: #f7f7f7;
 
 }
 
+.foto_abstrata {
+  border: 1px solid #505050;
+  border-radius: 50%;
+}
 #titulo, .subtitulo, .titulo_post{
-  color:blueviolet;
+  color:#505050;
 }
 
 .titulo_post {
+  margin: 0;
+  margin-bottom: 15px;
   font-size: 16px;
   font-style: italic;
 }
 
 .postagem {
-  background: #fff;
-  padding: 10px;
-  border: 3px solid #000;
-  margin: 10px;
+  background-color: #fff;
+  padding: 15px;
+  border: 3px solid #505050;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.conteudo_post {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.imagem_post {
+  margin-bottom: 15px;
+
 }
